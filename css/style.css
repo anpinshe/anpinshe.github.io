@@ -220,6 +220,7 @@
                 overflow: hidden;
                 height: 120px;
                 padding-top: 0px;
+                padding: 20px;
             }
             #caticon1,
             #caticon2,
@@ -237,7 +238,7 @@
             .words{
                 position: relative;
                 float:left;
-                max-width: 400px;
+                max-width: 450px;
                 height:auto;
                 color: rgb(168, 50, 72);
                 text-align: left;
@@ -246,6 +247,7 @@
                 border-radius: 10px;
                 padding: 5px;
                 margin: 5px;
+                float:right;
             }
 
 	/* Image */
@@ -838,7 +840,8 @@
 
 			#main > section.two
 			{
-				background-color: rgba(189, 118, 118, 0.26);
+				background-color: rgba(63, 35, 35, 0.26);
+                
 			}
 		
 			#main > section.three
