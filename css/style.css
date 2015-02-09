@@ -237,7 +237,7 @@
 
             .words{
                 position: relative;
-                float:left;
+                float:right;
                 max-width: 450px;
                 height:auto;
                 color: rgb(168, 50, 72);
