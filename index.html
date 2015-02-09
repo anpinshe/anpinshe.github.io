@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<!--
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Fortune Cat's Wonderland</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Anpin Shen's personal homepage" />
+		<meta name="keywords" content="Anpin Shen, Anpin, anpinshe, ftc, fortune cat" />
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body onload="startTimer(); Mcats();">
+
+		<!-- Header -->
+			<div id="header" class="skel-layers-fixed">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="image/35.png" alt="" /></span>
+							<h1 id="title">Anpin Shen</h1>
+							<p>Software Engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">About me</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Technical Decisions</span></a></li>
+								<li><a href="#front-end" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-question-circle">why</span></a></li>
+							</ul>
+						</nav>
+						
+				</div>
+				
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/anpin.shen" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/anpinshe" class="icon fa-github"><span class="label">Github</span></a></li>
+						</ul>
+				
+				</div>
+			
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 color="purple" class="alt">Nice to Meet You! I'm <strong>Anpin</strong>, a day-dreaming girl with 'unexpected' ideas <br /></h2>
+								<p>Want to know about me?<br />
+								Go ahead with the website</p>
+							</header>
+							
+							<footer>
+								<a href="#portfolio" class="button scrolly">GO</a>
+							</footer>
+
+						</div>
+					</section>
+					
+				<!-- About me -->
+					<section id="portfolio" class="two">
+						<div class="container">
+					
+							<header>
+								<h2>About Me</h2>
+							</header>
+							
+                            <div class="row">
+								
+									<article class="item" style="margin-bottom:20px">
+                                        <p style="text-align:left">
+                                            <strong>Hello,</strong></br> 
+                                            <strong>Name:</strong> Anpin <br> 
+                                            <strong>School:</strong> USC<br> 
+                                            <img class="image fit" id="imgc" style="float:right" src="image/p2.jpg" alt="" />
+                                            <strong>Major</strong>: Computer Engineering & Computer Science Minor Accounting<br> 
+                                            <strong>Expect Graduation Date:</strong> May 2015. <br>
+                
+                                            <strong>Hobbies</strong>: Playing Sudoku and Making origami handicrafts<br>
+                                            <strong>Love</strong>: Japanese Anime, my cat Popcorn and Lots of dresses
+                                            
+                                        </p>
+									</article>
+                            </div>
+                            <header>
+                                <h2 style="margin-top:30px;">Porfolio Works</h2>
+                            </header>
+                            <div class="row" id="work">
+                                    <article class="6u 12u$(xsmall) work-item">
+                                        <img src="image/1.png" class="image fit thumb" alt="" />
+                                        <h5>Glass Factory</h5>
+                                        <p>Software Design</p>
+                                    </article>
+                                    <article class="6u$ 12u$(xsmall) work-item">
+                                        <a href="https://www.youtube.com/watch?v=UDoYGUnqSD8" class="image fit thumb"><img src="image/6.png" alt="" /></a>
+                                        <h5>KittenCell Factory</h5>
+                                        <p>Artwork/GUI Design</p>
+                                    </article>
+                                    <article class="6u 12u$(xsmall) work-item"> 
+                                        <img src="image/honey.png" class="image fit thumb" alt="" />
+                                        <h5>GoHoney Game</h5>
+                                        <p>Qt Game Development</p>
+                                    </article>
+                                    <article class="6u$ 12u$(xsmall) work-item">
+                                        <img src="image/ori.jpg" class="image fit thumb" alt="" />
+                                        <h5>Origami</h5>
+                                        <p>Handicrafts made by Papers</p>
+                                    </article>
+                                
+								
+                            </div>
+
+						</div>
+					</section>
+
+				<!-- Technical -->
+					<section id="about" class="three" style="padding-bottom: 0px;">
+						<div class="container">
+
+							<header>
+								<h2>Technical Decistions</h2>
+							</header>
+
+							<!--<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>-->
+							
+							<ul>
+								<li style="background-color:#ADC5DD"><span class="icon fa-bars">&nbsp;&nbsp;I chose to have a sidebar instead of a top navbar in order to have a navbar available at all time. Making the top bar fixed at the top covers some of the web page content which I do not like that. The sidebar can be hidden when the width gets narrower</span></li>
+								<li style="background-color:silver"><span class="icon fa-bars" style="color:purple">&nbsp;&nbsp;Put all JavaScript/JQuery links at the bottom of the html file in order to boost the webpage's loading speed.</span></li>
+								<li style="background-color:#ADC5DD"><span class="icon fa-bars">&nbsp;&nbsp;Neat design and avoid too much inline css styles.</span></li>
+								<li style="background-color:silver"><span class="icon fa-bars" style="color:purple">&nbsp;&nbsp;The theme color I believe is purple and all my background images are edited to be covered with a little bit purple shades</span></li>
+							</ul>
+                            <div class="cats">
+                                <img id="caticon1" src="image/kk2.png">
+                                <img id="caticon2" src="image/kk3.png">
+                                <img id="caticon3" src="image/kk6.png">
+                                <img id="caticon4" src="image/kk7.png">
+                                <img id="caticon5" src="image/kk8.png">
+                                <img id="caticon6" src="image/kk9.png">
+                                <
+                            </div>
+						</div>
+					</section>
+                <!-- Why Front-end Engineer -->
+					<section id="front-end" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Why Do I Want to be a Front-end Engineer</h2>
+							</header>
+
+                            <div class="words">&#9679;&nbsp;I love to surf beautiful webpages</div>
+                            <div class="words">&#9679;&nbsp;It is like creating a masterpiece even though I am not an artist</div>
+                            <div class="words">&#9679;&nbsp;People now tend to shop online, good front-end makes them happy</div>
+                            <div class="words">&#9679;&nbsp;I am so willing to spend lots of time perfecting a good-looking page</div>
+                            <div class="words">&#9679;&nbsp;This work includes art, psycology and excellent code skills</div>
+							<div class="words">&#9679;&nbsp;My mom can finally understand what I'm doing:)</div>
+
+						</div>
+					</section>
+			
+			</div>
+				
+			
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Anpin Shen. All rights reserved.</li><li>Design: Anpin Shen</li>
+					</ul>
+				
+			</div>
+        <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+        <script type="text/javascript">
+            var images = [], x = -1;
+            images[0] = "image/p1.jpg";
+            images[1] = "image/p2.jpg";
+            images[2] = "image/p3.jpg";
+            images[3] = "image/p4.jpg";
+            images[4] = "image/p5.jpg";
+            images[5] = "image/p6.jpg";
+            images[6] = "image/p7.jpg";
+            
+            var cats = [], y = -1, z = 4;
+            cats[0] = "caticon4";
+            cats[1] = "caticon2";
+            cats[2] = "caticon6";
+            cats[3] = "caticon3";
+            cats[4] = "caticon1";
+            cats[5] = "caticon5";
+            function displayNextImage() {
+                x = (x === images.length - 1) ? 0 : x + 1;
+                document.getElementById("imgc").src = images[x];
+            }
+            function UCats(){
+                var up = true;
+                y = (y === cats.length - 1) ? 0 : y + 1;
+                z = (z === 0) ? 5 : z - 1;
+                upCat(0);
+                function upCat(i){
+                    var t = setTimeout(function(){
+                        document.getElementById(cats[y]).style.top = i+"px";
+                        document.getElementById(cats[z]).style.top = i+"px";
+                        if(up){
+                            if(i>(-23))
+                                upCat(i-1);
+                            else{
+                                up = false;
+                                sleep();
+                                upCat(i+1);
+                            }
+                        }
+                        else{
+                            if(i<0)
+                                upCat(i+1);
+                        }
+                    },40);
+                    
+                }
+                function sleep(){
+                    var start = new Date().getTime();
+                    for (var i = 0; i < 1e7; i++) {
+                        if ((new Date().getTime() - start) > 5){
+                            break;
+                        }
+                    }
+                }
+            }
+
+            function startTimer() {
+                setInterval(displayNextImage, 200);
+            }
+            function Mcats(){
+                setInterval(UCats, 3000);
+            }
+            
+        </script>
+	</body>
+</html>
