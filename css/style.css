@@ -285,12 +285,13 @@
 			{
                 float:left;
 				display: block;
-				width: 100%;
+				width: 35%;
                 max-width: 200px;
                 margin-left: 5%;
                 margin-right: 5%;
                 margin-bottom: 10px;
 			}
+    
 			
 			.image.featured
 			{
