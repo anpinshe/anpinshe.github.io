@@ -27,6 +27,10 @@
     font-family: 'aa'; 
     src: url('../fonts/Aaargh.ttf'); 
     }
+    @font-face {
+    font-family: 'all'; 
+    src: url('../fonts/Aller_Rg.ttf'); 
+    }
 
 	body
 	{
@@ -204,7 +208,7 @@
 			.row > article
 			{
 				margin-bottom: 0;
-                font-family: cursive;
+                font-family: 'all';
 			}
             #about li{
                 font-family: 'aa';
@@ -862,6 +866,7 @@
                 padding-right: 20px;
                 padding-bottom: 10px;
                 border-radius: 10px;
+                width: 70%;
             }
 
 			#main > section.three
