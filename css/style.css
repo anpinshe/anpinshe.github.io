@@ -60,7 +60,7 @@
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: 300;
-		color: #666;
+		color: #E89292;
 		line-height: 1.5em;
 	}
 	
@@ -114,7 +114,7 @@
 	strong, b
 	{
 		font-weight: 300;
-		color: #666;
+		color: #AD5D5D;
 	}
 	
 	em, i
@@ -240,7 +240,7 @@
                 float:right;
                 max-width: 450px;
                 height:auto;
-                color: rgb(168, 50, 72);
+                color: rgb(239, 210, 216);
                 text-align: left;
                 background-color: rgba(131, 124, 134, 0.38);
                 border: 2px;
@@ -752,6 +752,7 @@
 		margin-left: 375px;
 		text-align: center;
 		background-color: #dce3e2;
+        background-image: url(../image/footer.jpg);
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0,0,0,0.05), inset 0 0.1em 0.1em 0 rgba(0,0,0,0.025);
 		font-size: 0.8em;
@@ -840,16 +841,37 @@
 
 			#main > section.two
 			{
-				background-color: rgba(63, 35, 35, 0.26);
-                
+				<!--background-color: rgba(63, 35, 35, 0.26);-->
+                background-color: #81918E;
+                background-image: url('../image/back1.jpg');
+                background-repeat: round;
 			}
+            #main > section.two .info{
+                color: burlywood;
+                text-align:left;
+                background-color: rgba(45,45,45,0.5);
+                padding: 20px;
+            }
 		
+            #main > section.two .project{
+                color: burlywood;
+                text-align:center;
+                background-color: rgba(45,45,45,0.5);
+                margin: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 10px;
+                border-radius: 10px;
+            }
+
 			#main > section.three
 			{
 				background-color: #d6d4d7;
+                background-image: url('../image/back2.jpg');
 			}
 		
 			#main > section.four
 			{
 				background-color: #e8edec;
+                background-image: url('../image/back3.jpg');
 			}
